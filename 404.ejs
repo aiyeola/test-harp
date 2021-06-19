@@ -1,0 +1,65 @@
+<!DOCTYPE HTML>
+<html lang="en">
+    <%- include('partial/_head.ejs') %>
+    <body>
+        <%- include('partial/_loader.ejs') %>
+        <!-- loader  end-->
+        <!-- main start  -->
+        <div id="main">
+           <!-- header--> 
+         <%- include('partial/_header.ejs') %>
+         <!-- header end-->
+
+         <!-- left-header-->
+         <%- include('partial/_aside.ejs') %>
+         <!-- left-header end-->
+         
+
+            <!-- left-header end--> 
+            <!-- share button--> 
+            <div class="share-btn showshare color-bg"><span>Share <i class="fal fa-plus"></i></span></div>
+            <!-- share button end--> 
+            <!-- right header--> 
+            <div class="hc_dec_color">
+                <div class="page-subtitle"><span></span></div>
+            </div>
+            <!-- right header end--> 
+            <!-- wrapper  -->	
+            <div id="wrapper">
+                <!-- navigation menu-->
+                <%- include('partial/_nav.ejs') %>
+                <!-- navigation menu end  -->
+
+                <div class="content full-height" data-pagetitle="404">
+                    <div class="fs-hero-wrap">
+                        <div class="bg" data-bg="img/bg/1.jpg"></div>
+                        <div class="overlay"></div>
+                        <div class="error-wrap fl-wrap">
+                            <div class="container">
+                                <h2>404</h2>
+                                <p>We're sorry, but the Page you were looking for, couldn't be found.</p>
+                                <a href="/" class="btn ajax color-bg"><span>Back to Home Page</span></a>
+                            </div>
+                        </div>
+                        <div class="body-color-bg"></div>
+                    </div>
+                </div>
+                <!-- share-wrapper-->
+                <div class="share-wrapper">
+                    <div class="close-share-btn"><i class="fal fa-long-arrow-left"></i></div>
+                    <div class="share-container fl-wrap  isShare"></div>
+                </div>
+                <!-- share-wrapper  end -->						
+            </div>
+            <!-- wrapper end -->
+            <!-- cursor-->
+            <div class="element">
+                <div class="element-item"></div>
+            </div>
+            <!-- cursor end-->
+        </div>
+        <!-- Main end -->
+         <!--=============== scripts  ===============-->
+        <%- include('partial/_footer.ejs') %>
+    </body>
+</html>

@@ -1,0 +1,154 @@
+<!DOCTYPE HTML>
+<html lang="en">
+    <%- include('partial/_head.ejs') %>
+    <body>
+        <!-- loader   -->
+        <div class="loader">
+            <div class="loading-text-container "><span class="loading-text">Load<strong>ing</strong></span> <span class="loader_count">0</span></div>
+            <div class="loader-anim"></div>
+            <div class="loader-anim2 color-bg"></div>
+        </div>
+        <!-- loader  end-->
+        <!-- main start  -->
+        <div id="main">
+            <!-- header--> 
+            <%- include('partial/_header.ejs') %>
+            <!-- header end-->
+             <!-- left-header-->
+             <%- include('partial/_aside.ejs') %>
+            <!-- left-header end-->
+
+            <!-- share button-->
+            <div class="share-btn showshare color-bg"><span>Share <i class="fal fa-plus"></i></span></div>
+            <!-- share button end-->
+            <!-- right header-->
+            <div class="hc_dec_color">
+                <div class="page-subtitle"><span></span></div>
+            </div>
+            <!-- right header end-->
+            <!-- wrapper  -->
+            <div id="wrapper">
+                <!-- navigation menu-->
+                <%- include('partial/_nav.ejs') %>
+                <!-- navigation menu end  -->
+                <!-- content-->
+                <div class="content full-height" data-pagetitle="Home Carousel">
+                    <!-- fw-carousel-wrap -->
+                    <div class="hero-carousel-wrap  full-height   fl-wrap">
+                        <!-- fw-carousel  -->
+                        <div class="hero-carousel   fl-wrap full-height lightgallery">
+                            <div class="swiper-container">
+                                <div class="swiper-wrapper">
+                                    <!-- swiper-slide-->
+                                    <div class="swiper-slide hov_zoom">
+                                        <div class="bg"  data-bg="img/bg/long/1.jpg" data-swiper-parallax="10%"></div>
+                                        <div class="overlay"></div>
+                                        <div class="grid-carousel-title">
+                                            <h3><a href="about.html" class="ajax">View My Story</a></h3>
+                                            <div class="clearfix"></div>
+                                            <h4>Quis autem vel eum iure reprehenderit qui in ea voluptate</h4>
+                                            <a href="about.html" class="btn ajax  fl-btn   color-bg"><span>About Me</span></a>
+                                        </div>
+                                        <div class="carousle-item-number"><span>01.</span></div>
+                                        <div class="carousle-item-dec"></div>
+                                    </div>
+                                    <!-- swiper-slide end-->
+                                    <!-- swiper-slide-->
+                                    <div class="swiper-slide hov_zoom">
+                                        <div class="bg"  data-bg="img/bg/long/1.jpg" data-swiper-parallax="10%"></div>
+                                        <div class="overlay"></div>
+                                        <div class="grid-carousel-title">
+                                            <h3><a href="portfolio-single.html" class="ajax">Fashion Agensy</a></h3>
+                                            <div class="clearfix"></div>
+                                            <h4>Quis autem vel eum iure reprehenderit qui in ea voluptate</h4>
+                                            <a href="portfolio-single.html" class="btn ajax  fl-btn   color-bg"><span>View Project</span></a>
+                                        </div>
+                                        <div class="carousle-item-number"><span>02.</span></div>
+                                        <div class="carousle-item-dec"></div>
+                                    </div>
+                                    <!-- swiper-slide end-->
+                                    <!-- swiper-slide-->
+                                    <div class="swiper-slide hov_zoom">
+                                        <div class="bg"  data-bg="img/bg/long/1.jpg" data-swiper-parallax="10%"></div>
+                                        <div class="overlay"></div>
+                                        <div class="grid-carousel-title">
+                                            <h3><a href="portfolio-single.html" class="ajax">Branding agensy</a></h3>
+                                            <div class="clearfix"></div>
+                                            <h4>Quis autem vel eum iure reprehenderit qui in ea voluptate</h4>
+                                            <a href="portfolio-single.html" class="btn ajax  fl-btn   color-bg"><span>View Project</span></a>
+                                        </div>
+                                        <div class="carousle-item-number"><span>03.</span></div>
+                                        <div class="carousle-item-dec"></div>
+                                    </div>
+                                    <!-- swiper-slide end-->
+                                    <!-- swiper-slide-->
+                                    <div class="swiper-slide hov_zoom">
+                                        <div class="bg"  data-bg="img/bg/long/1.jpg" data-swiper-parallax="10%"></div>
+                                        <div class="overlay"></div>
+                                        <div class="grid-carousel-title">
+                                            <h3><a href="portfolio-single.html" class="ajax">Photography website</a></h3>
+                                            <div class="clearfix"></div>
+                                            <h4>Quis autem vel eum iure reprehenderit qui in ea voluptate</h4>
+                                            <a href="portfolio-single.html" class="btn ajax  fl-btn   color-bg"><span>View Project</span></a>
+                                        </div>
+                                        <div class="carousle-item-number"><span>04.</span></div>
+                                        <div class="carousle-item-dec"></div>
+                                    </div>
+                                    <!-- swiper-slide end-->
+                                </div>
+                            </div>
+                        </div>
+                        <!-- fw-carousel end -->
+                        <div class="fs-slider-controls-wrap fscw2">
+                            <div class="fs-slider-wrap_pagination-wrap">
+                                <div class="fs-slider-wrap_pagination"></div>
+                            </div>
+                        </div>
+                        <div class="ss-slider-cont ss-slider-cont-prev"><i class="fal fa-angle-left"></i></div>
+                        <div class="ss-slider-cont ss-slider-cont-next"><i class="fal fa-angle-right"></i></div>
+                    </div>
+                    <!-- fw-carousel-wrap end -->
+                    <div class="hsc_counter-wrap">
+                        <div class="hsc_counter"><span></span></div>
+                        <div class="hsc_total"></div>
+                    </div>
+                    <div class="fs-pg-idicator_wrap color-bg">
+                        <div class="slider-progress-bar">
+                            <span>
+                                <svg class="circ" width="50" height="50"  >
+                                    <circle class="circ2" cx="20" cy="20" r="18" stroke="rgba(255,255,255,0.4)" stroke-width="1" fill="none"/>
+                                    <circle class="circ1" cx="20" cy="20" r="18" stroke="#fff" stroke-width="2" fill="none"/>
+                                </svg>
+                            </span>
+                        </div>
+                    </div>
+                    <div class="hero-scroll-down-notifer">
+                        <div class="scroll-down-wrap ">
+                            <div class="mousey">
+                                <div class="scroller"></div>
+                            </div>
+                        </div>
+                        <i class="far fa-angle-down"></i>
+                    </div>
+                    <div class="body-color-bg"></div>
+                </div>
+                <!-- content end-->
+                <!-- share-wrapper-->
+                <div class="share-wrapper">
+                    <div class="close-share-btn"><i class="fal fa-long-arrow-left"></i></div>
+                    <div class="share-container fl-wrap  isShare"></div>
+                </div>
+                <!-- share-wrapper  end -->
+            </div>
+            <!-- wrapper end -->
+            <!-- cursor-->
+            <div class="element">
+                <div class="element-item"></div>
+            </div>
+            <!-- cursor end-->
+        </div>
+        <!-- Main end -->
+        <!--=============== scripts  ===============-->
+        <%- include('partial/_footer.ejs') %>
+    </body>
+</html>
