@@ -5,14 +5,6 @@
   "license": "MIT",
   "scripts": {
     "dev": "node script.js && harp ./ --port 3000",
-    "build": "harp compile ./"
-  },
-  "dependencies": {
-    "express": "^4.17.1",
-    "harp": "^0.41.0",
-    "js2json": "^0.0.6"
-  },
-  "devDependencies": {
-    "less": "^4.1.1"
+    "build": "npm install -g harp && harp ./ ./build"
   }
 }
