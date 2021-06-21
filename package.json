@@ -5,7 +5,6 @@
   "license": "MIT",
   "scripts": {
     "dev": "node _script.js && harp ./ --port 3000",
-    "build": "npm install -g harp && node _script.js && NODE_ENV=production harp ./ ./build",
-    "build-1": "cross-env NODE_ENV=production harp ./ --port 3000"
+    "build": "npm install -g harp && node _script.js && NODE_ENV=production harp ./ ./build"
   }
 }
