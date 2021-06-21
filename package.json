@@ -4,7 +4,8 @@
   "main": "index.js",
   "license": "MIT",
   "scripts": {
-    "dev": "node script.js && harp ./ --port 3000"
+    "dev": "node script.js && harp ./ --port 3000",
+    "build": "harp compile ./"
   },
   "dependencies": {
     "express": "^4.17.1",
