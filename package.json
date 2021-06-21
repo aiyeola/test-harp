@@ -4,7 +4,7 @@
   "main": "index.js",
   "license": "MIT",
   "scripts": {
-    "dev": "node script.js && harp ./ --port 3000",
-    "build": "npm install -g harp && harp ./ ./build"
+    "dev": "node _script.js && harp ./ --port 3000",
+    "build": "npm install -g harp && node _script.js && harp ./ ./build"
   }
 }
