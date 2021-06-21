@@ -7,7 +7,7 @@ const globalObject = {
     siteTitle: 'Lognetics - A Perfect Blend of Creativity',
     description:
       'Futuristic Domain of creativity, a team of creative and innovative experts, we deliver the most advanced tools and solutions. We create Branded identities for companies, Virtual and Augmented Reality, alongside Holographic Computation in every technology on all platforms. The future begins today!',
-    image: 'img/logo.png',
+    image: '/img/logo.png',
     date: new Date().getFullYear(),
   },
 };
